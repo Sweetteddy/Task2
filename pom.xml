@@ -9,7 +9,7 @@
 <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <myParam>${env.OS}</myParam>
+        <myParam></myParam>
     </properties>
 
 
@@ -19,11 +19,13 @@
         <artifactId>gson</artifactId>
         <version>2.6.2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
     <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>RELEASE</version>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
         <scope>test</scope>
     </dependency>
+
 </dependencies>
 </project>

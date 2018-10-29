@@ -1,16 +1,22 @@
-import static org.testng.Assert.*;
+import org.junit.Test; // for @Test
+import org.junit.Before; // for @Before
 
 public class EnumWordsTest {
 
-    @org.testng.annotations.Test
-    public void testReadJson() {
+    @Before
+    public void initEnvParam() {
+        System.out.println("Environmental property: " + System.getProperty("myParam"));
     }
 
-    @org.testng.annotations.Test
+    @Test
+    public void readJsonField() {
+    }
+
+    @Test
     public void testSearchWord() {
     }
 
-    @org.testng.annotations.Test
+    @Test
     public void testSearchSimbols() {
     }
 }

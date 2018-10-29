@@ -41,11 +41,5 @@ public class Main {
         int index1 = input.nextInt();
         int index2 = input.nextInt();
         ew.compareStrings(index1, index2);
-
-        System.out.println("-----------------------");
-        System.out.print("Выводим параметр myParam");
-        String myParam = System.getProperty("myParam");
-        System.out.println(myParam);
-
     }
 }
